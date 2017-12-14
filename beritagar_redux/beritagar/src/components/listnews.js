@@ -21,7 +21,7 @@ class ListNews extends Component{
             <div className="col-md-6">
               <p>Author: {data.author}</p>
               <h2><Link to={'/news/' + index} key="index"> <b>{data.title}</b> </Link> </h2>
-              // <img className="pic img-responsive" src={data.urlToImage} alt=""/>              
+              <img className="pic img-responsive" src={data.urlToImage} alt=""/>              
             </div>
             )
           })}
